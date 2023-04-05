@@ -1,0 +1,998 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PlayWerewolf</title>
+</head>
+
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="/assets/font/themify-icons-font/themify-icons/themify-icons.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="/responsive.css">
+
+<body>
+<div id="main">
+    <div id="header" class="header-js">
+        <a class="page-logo" href="https://playwerewolf.co/">
+            <h2>WEREWOLF</h2>
+            <p>BY STELLAR FACTORY</p>
+        </a>
+        <ul class="navbar menu-js">
+            <!-- exit menu responsive -->
+            <div class="exit-menu-btn exit-menu-js">X</div>
+            <!-- nav 1 -->
+            <li class="nav-item">
+                <div class="nav-item-name">
+                    <a href="">Buy Werewolf
+                        <i class="subnav-down-icon ti-angle-down"></i>
+                    </a>
+                    <i class="respon-menu-btn ti-angle-down"></i>
+                </div>
+                <ul class="subnav subnav-js">
+                    <li class="subnav-item"><a href="">Purchase</a></li>
+                </ul>
+            </li>
+            <!-- nav 2 -->
+            <li class="nav-item">
+                <div class="nav-item-name">
+                    <a href="">Our Games
+                        <i class="subnav-down-icon ti-angle-down"></i>
+                    </a>
+                    <i class="respon-menu-btn ti-angle-down"></i>
+                </div>
+            <ul class="subnav width-265 subnav-js">
+                    <li class="subnav-item"><a href="">Peak & Push</a></li>
+                    <li class="subnav-item"><a href="">Ravine</a></li>
+                    <li class="subnav-item"><a href="">Spaceteam</a></li>
+                    <li class="subnav-item"><a href="">Strawberry Sunset</a></li>
+                    <li class="subnav-item"><a href="">Werewolf</a></li>
+                    <li class="subnav-item"><a href="">View All</a></li>
+                </ul>
+            </li>
+            <!-- nav 3 -->
+            <li class="nav-item">
+                <div class="nav-item-name">
+                    <a href="">Our Puzzels
+                        <i class="subnav-down-icon ti-angle-down"></i>
+                    </a>
+                    <i class="respon-menu-btn ti-angle-down"></i>
+                </div>
+                <ul class="subnav width-410 subnav-js">
+                    <li class="subnav-item"><a href="">Pizza Puzzles: Meat Lover's</a></li>
+                    <li class="subnav-item"><a href="">Pizza Puzzles: Pepperoni</a></li>
+                    <li class="subnav-item"><a href="">Pizza Puzzles: Veggie Supreme</a></li>
+                    <li class="subnav-item"><a href="">View All</a></li>
+                </ul>
+            </li>
+            <!-- nav 4 -->
+            <li class="nav-item">
+                <div class="nav-item-name">
+                    <a href="">Help
+                        <i class="subnav-down-icon ti-angle-down"></i>
+                    </a>
+                    <i class="respon-menu-btn ti-angle-down"></i>
+                </div>
+                <ul class="subnav width-280 subnav-js">
+                    <li class="subnav-item"><a href="">Rules</a></li>
+                    <li class="subnav-item"><a href="">Watch How To Play</a></li>
+                    <li class="subnav-item"><a href="">Character Roles</a></li>
+                    <li class="subnav-item"><a href="">Contact Us</a></li>
+                </ul>
+            </li>
+        </ul>
+
+        <div class="header-btns">
+            <div class="header-search-btn js-search-btn">
+                <i class="search-icon ti-search"></i>
+            </div>
+    
+            <div class="header-cart-btn cart-btn-js">
+                <i class="cart-icon ti-shopping-cart"></i>
+            </div>
+
+            <div class="header-menu-btn menu-btn-js">
+                <i class="menu-icon ti-menu"></i>
+            </div>
+        </div>
+    </div>
+    <!-- slider -->
+    <div id="slider">
+        <img src="/assets/slider-img/slider.jpg" alt="" class="slider-img">
+        <div class="slider-content">
+            <h1 class="slider-header">A Social Deduction Party Game</h1>
+            <h2 class="slider-descryption">Easy To Learn And Allows Up To 35 Players</h2>
+            <div class="slider-btn">
+                <p>Watch The Trailer</p>
+            </div>
+        </div>
+    </div>
+    <!-- main product info -->
+    <div id="main-prod-container">
+        <!-- carosel -->
+        <div class="product-carosel">
+            <!-- move caro left -->
+            <button class="carosel-button carosel-button-left prev-btn-js is-hidden">
+                <i class="carosel-btn-icon ti-arrow-circle-left"></i>
+            </button>
+            <!-- caro-slider -->
+            <div class="carosel-track-container">
+                <ul class="carosel-track carosel-track-js">
+                    <li class="carosel-slider current-slide"><img src="/assets/carosel-img/card-1.png" class="carosel-img" alt=""></li>
+                    <li class="carosel-slider"><img src="/assets/carosel-img/card-2.png" class="carosel-img" alt=""></li>
+                    <li class="carosel-slider"><img src="/assets/carosel-img/card-3.png" class="carosel-img" alt=""></li>
+                    <li class="carosel-slider"><img src="/assets/carosel-img/card-4.png" class="carosel-img" alt=""></li>
+                    <li class="carosel-slider"><img src="/assets/carosel-img/card-5.png" class="carosel-img" alt=""></li>
+                    <li class="carosel-slider"><img src="/assets/carosel-img/card-6.png" class="carosel-img" alt=""></li>
+                </ul>
+            </div>
+            <!-- move caro right -->
+            <button class="carosel-button carosel-button-right next-btn-js">
+                <i class="carosel-btn-icon ti-arrow-circle-right"></i>
+            </button>
+
+            <!-- carosel indicator -->
+            <div class="carosel-nav carosel-nav-js">
+                <button class="carosel-indicator current-slide"></button>
+                <button class="carosel-indicator"></button>
+                <button class="carosel-indicator"></button>
+                <button class="carosel-indicator"></button>
+                <button class="carosel-indicator"></button>
+                <button class="carosel-indicator"></button>
+            </div>
+        </div>
+
+        <!-- main prod info -->
+        <div class="main-prod-info-wrapper">
+            <div class="main-prod-content">
+                <h2 class="main-prof-header">Werewolf</h2>
+                <p class="main-prod-price">$12.95</p>
+                <div class="main-prod-rating">
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <p class="rating-number">4.8 (192 Reviews)</p>
+                </div>
+            </div>
+            <div class="main-prod-btn">
+                <div class="prod-btn">Add to cart</div>
+                <div class="prod-btn background-darkblue" style="color: white;">Buy with Shop<span>Pay</span></div>
+                <div class="prod-btn" style="border: none;">More payment options</div>
+            </div>
+            <div class="included-text">
+                <p>LEARN MORE AND SEE WHAT'S INCLUDED</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <!-- search overlay -->
+    <div class="search-overlay js-search-overlay">
+        <div class="search-container search-container-js">
+            <div class="search-content">
+                <i class="overlay__search-icon ti-search"></i>
+            <input class="search-input" type="text" placeholder="Search Our Store">
+            <div class="exit-search js-exit-search">X</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- cart overlay -->
+    <div class="cart-overlay cart-overlay-js">
+        <div class="cart-container cart-container-js">
+            <div class="cart-header-box">
+                <h1 class="cart-header">Cart</h1>
+                <div class="cart-exit-btn close-cart-js">X</div>
+            </div>
+            <div class="cart-items">
+                <div class="ex-item">
+                    <img src="/assets/product-imgs/product-1.png" alt="" class="ex-item-img">
+                    <div class="ex-item-content">
+                        <p class="ex-item-name">Werewolf</p>
+                        <input type="number" class="ex-item-count" min="0">
+                        <p class="ex-item-price">$12.95</p>
+                    </div>
+                </div>
+            </div>
+            <div class="checkout-box">
+                <div class="checkout-content">
+                    <h2 class="checkout-header">SUBTOTAL</h2>
+                <p class="checkout-price">$12.95</p>
+                <p class="checkout-descryption">Shipping, taxes, and discount codes calculated at checkout.</p>
+                </div>
+                <div class="checkout-btn checkout-btn-js">Checkout</div>
+            </div>
+        </div>
+    </div>
+
+    <!--user payment info overlay -->
+    <div class="payment-form-overlay payment-form-js">
+        <!-- Payment method -->
+        <div class="payment-method-container">
+            <img src="/assets/form-img/form-img.png" alt="" class="form-logo">
+            <!-- card payment -->
+            <div class="card-payment-wrapper">
+                <h3 class="card-payment-header payment-header">Express Checkout</h3>
+                <div class="card-btn-container">
+                    <!-- shopPay -->
+                    <div class="card-btn background-darkblue">
+                        <p class="btn-1-text">Shop<span>Pay</span></p>
+                    </div>
+                    <!-- PayPal -->
+                    <div class="card-btn background-yellow">
+                        <p class="btn-2-text">Pay<span>Pal</span></p>
+                    </div>
+                    <!-- GPay -->
+                    <div class="card-btn background-black">
+                        <p class="btn-3-text">G<span>Pay</span></p>
+                    </div>
+                </div>
+            </div>
+            <!-- direct payment -->
+            <div class="direct-payment-wrapper">
+                <h3 class="direct-payment-header payment-header">Or</h3>
+                <form action="" name="form1" class="direct-payment-form" id="payment-form">
+                    <fieldset class="contact-info-form">
+                        <legend class="form-header">Contact Information</legend>
+                        <label class="input-label" for="">Email<span>*</span> </label>
+                        <input class="input-box width-100p" id="email" name='email' required type="text">
+                        <input type="checkbox" >
+                        <label class="input-label" for="">Email me with news and offers</label>
+                    </fieldset>
+                    <fieldset class="address-form">
+                        <legend class="form-header">Shipping Address</legend>
+                        <lable class="input-label">Country/Region <span>*</span></lable>
+                        <input class="input-box width-100p" id="country" name="country" required type="text">
+                        <div class="input-2-column">
+                            <div class="input-first-name ">
+                                <lable class="input-label">First Name</lable>
+                                <input class="input-box" id="f-name" name="f-name" type="text">
+                            </div>
+                            <div class="input-last-name">
+                                <lable class="input-label">Last Name <span>*</span></lable>
+                                <input class="input-box" id="l-name" name="l-name" required type="text">
+                            </div>
+                        </div>
+                        <lable class="input-label">Address <span>*</span></lable>
+                        <input class="input-box width-100p" id="address" name="address" required type="text">
+                        <lable class="input-label">Appartment, suite, etc</lable>
+                        <input class="input-box width-100p" id="apartment" name="apartment" type="text">
+                        <div class="input-2-column">
+                            <div class="input-city">
+                                <lable class="input-label">City <span>*</span></lable>
+                                <input class="input-box" id="city" name="city" required type="text">
+                            </div>
+                            <div class="input-pcode">
+                                <lable class="input-label">Postal Code <span>*</span></lable>
+                                <input class="input-box" id="postal" name="postal" required type="text">
+                            </div>
+                        </div>
+                    </fieldset>
+                    <div class="form-btns">
+                        <div class="return-to-cart-btn"><p class="to-cart-text">
+                            Return to cart
+                            </p>
+                        </div>
+                        <input class="form-submit-btn" required type="submit" name="submit" value="SEND" onclick="ValidateEmail(document.form1.email)" />
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <!-- policies -->
+        <div class="policy-wrapper">
+            <a href="" class="policy-item">Refund policy</a>
+            <a href="" class="policy-item">Shipping policy</a>
+            <a href="" class="policy-item">Privacy policy</a>
+            <a href="" class="policy-item">Terms of service</a>
+        </div>
+    </div>
+    <!-- part 2 -->
+    <!--phần 1-->
+<div class="three-image-container">
+    <div class="three-image-item">
+        <img class="three-image-img" src="https://cdn.shopify.com/s/files/1/0487/2709/7510/files/light-small_360x.jpg?v=1614330754">
+        <h2 class="three-image-header">SMALL AND LIGHT</h2>
+        <p class="three-image-text">Size and weight of a standard of cards</p>
+    </div>
+    <div class="three-image-item">
+        <img class="three-image-img" src="https://cdn.shopify.com/s/files/1/0487/2709/7510/files/werewolf-game-night_360x.jpg?v=1614330755">
+        <h2 class="three-image-header">GAME NIGHT READY</h2>
+        <p class="three-image-text">Scaleable from 7 to 35 players</p>
+    </div>
+    <div class="three-image-item">
+        <img class="three-image-img" src="https://cdn.shopify.com/s/files/1/0487/2709/7510/files/minimal-design-werewolf_360x.jpg?v=1614330754">
+        <h2 class="three-image-header">MINIMAL AND CLEAN</h2>
+        <p class="three-image-text">Pleasant to look at and easy to understand</p>
+    </div>
+    </div>
+    <!--phần 2-->
+    <div class="five-image-container">
+        <h2 class="five-image-header">HIGHLIGHTED FOR ITS DESIGN & GAMEPLAY</h2>
+        <div class="five-image-imgs">
+            <img src="https://cdn.shopify.com/s/files/1/0487/2709/7510/files/uncrate_35ed292f-72af-4182-a22e-14f83bfc94a6_180x.jpg?v=1614330558" alt="" class="five-image-img">
+            <img src="https://cdn.shopify.com/s/files/1/0487/2709/7510/files/pbs_180x.jpg?v=1614330557" alt="" class="five-image-img">
+            <img src="https://cdn.shopify.com/s/files/1/0487/2709/7510/files/cool-hunting_180x.jpg?v=1614330559" alt="" class="five-image-img">
+            <img src="https://cdn.shopify.com/s/files/1/0487/2709/7510/files/oprah-magazine-v2_180x.jpg?v=1614330558" alt="" class="five-image-img">
+            <img src="https://cdn.shopify.com/s/files/1/0487/2709/7510/files/guardian-v2_180x.jpg?v=1614330559" alt="" class="five-image-img">
+        </div>
+    </div>
+    <!--phần 3-->
+    <div class="rating-container">
+        <div class="rating-item">
+            <h1 class="rating-header">"</h1>
+            <p class="rating-star">&Star;&Star;&Star;&Star;&Star;</p>
+            <p class="rating-cmt">Obsesed. That's all i have to say. My friend and I play this every game right now</p>
+            <h1 class="rating-user">-L.S</h1>
+        </div>
+        <div class="rating-item">
+            <h1 class="rating-header">"</h1>
+            <p class="rating-star">&Star;&Star;&Star;&Star;&Star;</p>
+            <p class="rating-cmt">This is a party game. I have played it with kids and adults; fun for everyone!</p>
+            <h1 class="rating-user">-S.P</h1>
+        </div>
+        <div class="rating-item">
+            <h1 class="rating-header">"</h1>
+            <p class="rating-star">&Star;&Star;&Star;&Star;&Star;</p>
+            <p class="rating-cmt">Bought this game to play during family get togthers. everyone of all ages absolutely loved it</p>
+            <h1 class="rating-user">-C.M</h1>
+        </div>
+    </div>
+    <div class="button1-container">
+            <button class="button1" >BUY WEREWOLF</button>
+    </div>
+    <!--Phần 4: Thiết kế-->
+    <div class="design-container">
+        <div class="design-img">
+            <img src="https://cdn.shopify.com/s/files/1/0487/2709/7510/files/werewolf-guide-icons-v6_360x.jpg?v=1614330570">
+        </div>
+        <div class="design-container-text">
+            <p class="design-text">THE COMPLETE</p>
+            <h2 clas="design-header">WEREWOLF GUIDE</h2>
+            <p class="design-text">We built a mobile-friendly version of our rules so that veryone can have access to them during a game</p>
+            <button class="design-button">VIEW GUIDE</button>
+        </div>
+    </div>
+    <!--Phần 5: video background-->
+        <div class="video-container">
+            <video autoplay muted loop plays-inline class="video">
+                <source src="Video_BtWeb.mp4" type="video/mp4" style="justify-content: center; height: 10px;">
+            </video>
+                <!-- //tạo và ghi nội dung trong hộp ở đây -->
+            <div class="video-content-container" >
+                <!-- //nội dung của hộp -->
+                <p class="video-content-p">
+                    LEARN QUICKLY
+                </p>
+                <h2 class="video-content-header">WATCH TO HOW TO PLAY WEREWOLF</h2>
+                <p class="video-content-p">Watch our video to see how a round Werewolf works. Our video is perfect to show your group before  jumping into your first round.
+                </p>
+                <div class="watch" >
+                    <div class="tamgiac"></div>
+                    <p class="watch-text">WATCH</p>
+                </div>
+            </div>
+            </div>  
+    <!--Phần 6-->
+        <div class="end-container">
+            <p class="end-text">You'll love Werewolf if you or your friends are clever, conniving, calm, creative, or cooperative.</p>
+            <button class="button1">BUY WEREWOLF</button>
+        </div>
+
+    <!-- part 3 -->
+    <div id="game">
+        <div class="explore">
+            <h3>EXPLORE OUR OTHER GAMES</h3></div>
+        <ul class="game-list">
+            <!--StrawberrySS-->
+            <li class="game-item">
+                <div class="card-img">
+                    <img src="Photo/Strawberry Sunset front.png" alt="" class="front">
+                    <img src="Photo/ss-card-backs_540x.png" alt="" class="second"> 
+                    <div class="circle" id="openQV-overlay1">
+                        <div class="text">QUICK VIEW</div>
+                    </div>
+                </div>
+                <h4>Strawberry Sunset</h4>
+                <p>$12.95</p>
+            </li>
+
+            <!--PP-->
+            <li class="game-item">
+                <div class="card-img">
+                    <img src="Photo/PP front.png" alt=""  class="front">
+                    <img src="Photo/peek-push-tiles_540x.png" alt="" class="second">
+                    <div class="circle" id="openQV-overlay2">
+                        <div class="text">QUICK VIEW</div>
+                    </div>
+                </div>
+                <h4>Peek & Push</h4>
+                <p>$14.95</p>
+            </li>
+
+            <!--Ravine-->
+            <li class="game-item">
+                <div class="card-img">
+                    <img src="Photo/ravine front.png" alt="" class="front">
+                    <img src="Photo/ravine-assets-1_540x.png" alt="" class="second">
+                    <div class="circle" id="openQV-overlay3">
+                        <div class="text">QUICK VIEW</div>
+                    </div>
+                </div>
+                <h4>Ravine</h4>
+                <p>$27.95</p>
+            </li>
+
+            <!--SpaceTeam-->
+            <li class="game-item">
+                <div class="card-img">
+                    <img src="Photo/SpaceTeam front.png" alt="" class="front">
+                    <img src="Photo/spaceteam-malf-cards_540x.png" alt="" class="second">
+                    <div class="circle" id="openQV-overlay4">
+                        <div class="text">QUICK VIEW</div>
+                    </div>
+                </div>
+                <h4>SpaceTeam</h4>
+                <p>$24.95</p>
+            </li>
+        </ul>
+    </div>
+
+    <div id='footer'>
+        <div id="description">
+            <!--des1-->
+            <ul class="des-list des1"><a href="">OUR GAMES</a>
+                <li class="des-item"><a href="">Peak & Push</a></li>
+                <li class="des-item"><a href="">Ravine</a></li>
+                <li class="des-item"><a href="">Spaceteam</a></li>
+                <li class="des-item"><a href="">Strawberry Sunset</a></li>
+                <li class="des-item"><a href="">Werewolf</a></li>
+                <li class="des-item"><a href="">View All</a></li>
+            </ul>
+            <!--des2-->
+            <ul class="des-list des2"><a href="">SUPPORT DEPT.</a>
+                <li class="des-item"><a href="">Game Rules</a></li>
+                <li class="des-item"><a href="">How to Play Video</a></li>
+                <li class="des-item"><a href="">Contact Us</a></li>
+            </ul>
+            <!--des3-->
+            <ul class="des-list des3"><a href="">LEGAL DEPT.</a>
+                <li class="des-item"><a href="">Open Wholesale Account</a></li>
+                <li class="des-item"><a href="">Privacy Policy</a></li>
+                <li class="des-item"><a href="">Terms of Use</a></li>
+            </ul>
+            <!--des4-->
+            <ul class="des-list des4"><a href="">STAY IN THE LOOP</a>
+                <li class="des-item"><a href="">Get updated on new games and more</a></li>
+                <div class="mail-box">
+                    <form action="">
+                        <input type="text" id="mail" placeholder="Enter your email">
+                    </form>
+                </div>
+            </ul>
+        </div>
+        <div class="payment-icons">
+            <img src="Photo/Payments.PNG" alt=""></div>
+        <div class="copyrights">HELLO@STELLARFACTORY.COM | P.O. BOX 2150, BOULDER, CO, USA | © 2023 WEREWOLF by Stellar Factory - STELLAR FACTORY®</div>
+    </div>
+
+    <div class="QV-overlay">
+        <!--SS-QV-->
+        <div class="QV-overlay-container1">
+            <div class="QV-overlay-slide">
+                <div class="QV-img-buttons">
+                    <button class="1"><img src="Photo/Strawberry Sunset front.png" alt=""></button>
+                    <button class="2"><img src="Photo/ss-card-backs_540x.png" alt=""></button>
+                    <button class="3"><img src="Photo/SS3.png" alt=""></button>
+                    <button class="4"><img src="Photo/SS4.png" alt=""></button>
+                    <button class="5"><img src="Photo/SS5.png" alt=""></button>
+
+                </div>
+                <div class="QV-img-container">
+                        <div class="QVslide slide1"><img class="carousel1_image" src="Photo/Strawberry Sunset front.png" alt=""></div>
+                        <div class="QVslide slide2"><img class="carousel2_image" src="Photo/ss-card-backs_540x.png" alt=""></div>
+                        <div class="QVslide slide3"><img class="carousel3_image" src="Photo/SS3.png" alt=""></div>
+                        <div class="QVslide slide4"><img class="carousel4_image" src="Photo/SS4.png" alt=""></div>
+                        <div class="QVslide slide5"><img class="carousel5_image" src="Photo/SS5.png" alt=""></div>
+                </div>
+            </div>
+            <div class="QV-overlay-content1">
+                <div class="close1" id="closeQV-overlay">&times;</div>
+                <h3>Strawberry Sunset</h3>
+                <h6>$12.95</h6>
+                <h4>Add to cart</h4>
+                <img src="Photo/QVbuybtn.PNG" alt="">
+                <div class="payment">More payment options</div>
+                <p>In Strawberry Sunset, create a vibrant and flourishing strawberry patch - one more fruitful than your neightbor's. In this quick strategy game, you will have until sunset to grow as many strawberry plants as you can, while landscaping your garden. Add uniqe features to your design, such as koi ponds, gnomes, and zen gardens. Ready to get your hand dirty?</p>
+                <li>Made in the U.S.A</li>
+                <li>Card Size: 2.5" x 3.5"</li>
+            </div>
+        </div>
+
+        <!--PP-QV-->
+        <div class="QV-overlay-container2">
+            <div class="QV-overlay-slide">
+                <div class="QV-img-buttons">
+                    <button class="1"><img src="Photo/PP front.png" alt=""></button>
+                    <button class="2"><img src="Photo/peek-push-tiles_540x.png" alt=""></button>
+                    <button class="3"><img src="Photo/PP3.png" alt=""></button>
+                    <button class="4"><img src="Photo/PP4.png" alt=""></button>
+
+                </div>
+                <div class="QV-img-container">
+                        <div class="QVslide slide1"><img class="carousel1_image" src="Photo/PP front.png" alt=""></div>
+                        <div class="QVslide slide2"><img class="carousel2_image" src="Photo/peek-push-tiles_540x.png" alt=""></div>
+                        <div class="QVslide slide3"><img class="carousel3_image" src="Photo/PP3.png" alt=""></div>
+                        <div class="QVslide slide4"><img class="carousel4_image" src="Photo/PP4.png" alt=""></div>
+                </div>
+            </div>
+            <div class="QV-overlay-content2">
+                <div class="close2" id="closeQV-overlay">&times;</div>
+                <h3>Peek & Push</h3>
+                <h6>$14.95</h6>
+                <h4>Add to cart</h4>
+                <img src="Photo/QVbuybtn.PNG" alt="">
+                <div class="payment">More payment options</div>
+                <p>PEEK & PUSH is a 2-player strategy game that puts your memory to the test. Create a set or run before your opponent does, and you win! The game begins with all of the tiles face down. Peek to see the contents of a tile, or Push a row or column to shift the board. But be careful, don't lose track of tiles you’ve already uncovered! It’s your move, will you Peek or Push?</p>
+                <li>Includes 25 tiles (each tile is 2.25” x 2.5” and 2mm thick) and 1 Instructional Booklet</li>
+                <li>Varying levels of difficulty from beginner to advanced.</li>
+                <li>Perfect game to throw in your bag for spontaneous play.</li>
+                <p class="BLANK">BLANK SPACE</p>
+            </div>
+        </div>
+
+        <!--Ravine-QV-->
+        <div class="QV-overlay-container3">
+            <div class="QV-overlay-slide">
+                <div class="QV-img-buttons">
+                    <button class="1"><img src="Photo/ravine front.png" alt=""></button>
+                    <button class="2"><img src="Photo/ravine-assets-1_540x.png" alt=""></button>
+                    <button class="3"><img src="Photo/RV3.png" alt=""></button>
+                    <button class="4"><img src="Photo/RV4.png" alt=""></button>
+                    <button class="5"><img src="Photo/RV5.png" alt=""></button>
+
+                </div>
+                <div class="QV-img-container">
+                        <div class="QVslide slide1"><img class="carousel1_image" src="Photo/ravine front.png" alt=""></div>
+                        <div class="QVslide slide2"><img class="carousel2_image" src="Photo/ravine-assets-1_540x.png" alt=""></div>
+                        <div class="QVslide slide3"><img class="carousel3_image" src="Photo/RV3.png" alt=""></div>
+                        <div class="QVslide slide4"><img class="carousel4_image" src="Photo/RV4.png" alt=""></div>
+                        <div class="QVslide slide5"><img class="carousel5_image" src="Photo/RV5.png" alt=""></div>
+                </div>
+            </div>
+            <div class="QV-overlay-content3">
+                <div class="close3" id="closeQV-overlay">&times;</div>
+                <h3>Ravine</h3>
+                <h6>$27.95</h6>
+                <h4>Add to cart</h4>
+                <img src="Photo/QVbuybtn.PNG" alt="">
+                <div class="payment">More payment options</div>
+                <p>Ravine is a strategic and cooperative survival card game. You and your friends survived the plane crash, but will you survive the night? Work together to forage for food, craft a fire, and build shelters, but be wary: every step you take in the ravine could be one step closer to madness.</p>
+                <li>3-6 PLAYERS | AGES 10+ | 5 MINUTES</li>
+            </div>
+        </div>
+
+        <!--SpaceTeam-QV-->
+        <div class="QV-overlay-container4">
+            <div class="QV-overlay-slide">
+                <div class="QV-img-buttons">
+                    <button class="1"><img class="1" src="Photo/SpaceTeam front.png" alt=""></button>
+                    <button class="2"><img class="2" src="Photo/spaceteam-malf-cards_540x.png" alt=""></button>
+                    <button class="3"><img src="Photo/ST3.png" alt=""></button>
+                    <button class="4"><img src="Photo/ST4.png" alt=""></button>
+                    <button class="5"><img src="Photo/ST5.png" alt=""></button>
+                    <button class="6"><img src="Photo/ST6.png" alt=""></button>
+
+                </div>
+                <div class="QV-img-container">
+                        <div class="QVslide slide1"><img class="carousel1_image" src="Photo/SpaceTeam front.png" alt=""></div>
+                        <div class="QVslide slide2"><img class="carousel2_image" src="Photo/spaceteam-malf-cards_540x.png" alt=""></div>
+                        <div class="QVslide slide3"><img class="carousel3_image" src="Photo/ST3.png" alt=""></div>
+                        <div class="QVslide slide4"><img class="carousel4_image" src="Photo/ST4.png" alt=""></div>
+                        <div class="QVslide slide5"><img class="carousel5_image" src="Photo/ST5.png" alt=""></div>
+                        <div class="QVslide slide6"><img class="carousel6_image" src="Photo/ST6.png" alt=""></div>
+                </div>
+            </div>
+            <div class="QV-overlay-content4">
+                <div class="close4" id="closeQV-overlay">&times;</div>
+                <h3>Ravine</h3>
+                <h6>$27.95</h6>
+                <h4>Add to cart</h4>
+                <img src="Photo/QVbuybtn.PNG" alt="">
+                <div class="payment">More payment options</div>
+                <p>Ravine is a strategic and cooperative survival card game. You and your friends survived the plane crash, but will you survive the night? Work together to forage for food, craft a fire, and build shelters, but be wary: every step you take in the ravine could be one step closer to madness.</p>
+                <li>3-6 PLAYERS | AGES 10+ | 5 MINUTES</li>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <!-- js -->
+
+    <!-- email validate -->
+    <script>
+        function ValidateEmail(inputText){
+            var mailformat = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+        if(inputText.value.match(mailformat)){
+            alert("Valid email address!");
+            document.form1.text1.focus();
+            return true;
+        }else{
+            alert("You have entered an invalid email address!");
+            document.form1.text1.focus();
+        return false;
+        }
+    }
+    </script>
+
+    <!-- đóng mở search -->
+    <script>
+        const searchBtn = document.querySelector('.js-search-btn')
+        const searchOverlay = document.querySelector('.js-search-overlay')
+        const searchContainer = document.querySelector('.search-container-js')
+        const exitOverlay = document.querySelector('.js-exit-search')
+
+        //đóng search
+        function closeSearch(){
+            searchOverlay.classList.remove('open')
+        }
+        exitOverlay.addEventListener('click', closeSearch)
+
+        //mở search
+        function showSearch(){
+            searchOverlay.classList.add('open')
+        }
+        searchBtn.addEventListener('click', showSearch)
+    
+        //click bên ngoài search sẽ đóng search
+        searchOverlay.addEventListener('click', closeSearch)
+
+        searchContainer.addEventListener('click', function (event) {
+            event.stopPropagation();
+        })
+    </script>
+
+
+    <!-- đóng mở cart + đóng form -->
+    <script>
+        const cartBtn = document.querySelector('.cart-btn-js')
+        const cartOverlay = document.querySelector('.cart-overlay-js')
+        const cartContainer = document.querySelector('.cart-container-js')
+        const closeCart = document.querySelector('.close-cart-js')
+        // Mở cart
+        function showCart(){
+            cartOverlay.classList.add('open')
+        }
+        cartBtn.addEventListener('click', showCart)
+
+        //đóng cart
+        function closeCartFunc(){
+            cartOverlay.classList.remove('open');
+
+        }
+
+        closeCart.addEventListener('click', closeCartFunc)
+
+        //click ngoài cart sẽ đóng cart
+        cartOverlay.addEventListener('click', closeCartFunc)
+
+        cartContainer.addEventListener('click', function(event){
+            event.stopPropagation();
+        })
+    </script>
+
+    <!-- header đổi màu -->
+    <script>
+    const headerOnScroll = document.querySelector('.header-js')
+
+    window.onscroll = function(){
+        var top = window.scrollY;
+        if (top >= 300 ){
+            headerOnScroll.classList.add('inverted');
+        }else{
+            headerOnScroll.classList.remove('inverted');
+        }
+    }
+    </script>
+    
+    <!-- Đóng mở checkout form-->
+    <script>
+        const checkoutBtn = document.querySelector('.checkout-btn-js')
+        const paymentForm = document.querySelector('.payment-form-js')
+        const closeFormBtn = document.querySelector('.return-to-cart-btn')
+        //Mở form
+        function openForm(){
+            paymentForm.classList.add('show');
+        }
+        checkoutBtn.addEventListener('click', openForm)
+        //Đóng form
+        function closeForm(){
+            paymentForm.classList.remove('show');
+        }
+        closeFormBtn.addEventListener('click', closeForm);
+
+
+    </script>
+
+    <!-- Mở menu khi responsive -->
+    <script>
+        const resMenu = document.querySelector('.menu-btn-js');
+        const closeResMenu = document.querySelector('.exit-menu-js');
+        const navMenu = document.querySelector('.menu-js');
+        
+        //Mở menu
+        function showMenu(){
+            navMenu.classList.add('open');
+        }
+        resMenu.addEventListener('click', showMenu);
+        
+        //đóng menu
+        function hideMenu(){
+            navMenu.classList.remove('open');
+        }
+        closeResMenu.addEventListener('click', hideMenu);
+    </script>
+
+    <!-- chuyển carosel -->
+    <script>
+        const track = document.querySelector('.carosel-track-js');
+        const slides = Array.from(track.children);
+
+        const nextBtn = document.querySelector('.next-btn-js');
+        const prevBtn = document.querySelector('.prev-btn-js');
+
+        const dotsNav = document.querySelector('.carosel-nav-js');
+        const dots = Array.from(dotsNav.children);
+
+        const slideWidth = slides[0].getBoundingClientRect().width;
+
+        // arrange slides next to each other
+        const setSlidePosition = (slide, index)=> {
+            slide.style.left = slideWidth * index +'px';
+        }
+        slides.forEach(setSlidePosition);
+
+        const moveToSlide = (track, currentSlide, targetSlide) => {
+            track.style.transform = 'translateX(-' +  targetSlide.style.left + ')';
+            currentSlide.classList.remove('current-slide');
+            targetSlide.classList.add('current-slide');
+        }
+
+        const updateDots = (currentDot, targetDot) => {
+            currentDot.classList.remove('current-slide');
+            targetDot.classList.add('current-slide');
+        }
+
+        const hideShowArrows = (slides, prevBtn, nextBtn, targetIndex) =>{
+            if (targetIndex === 0) {
+                prevBtn.classList.add('is-hidden');
+                nextBtn.classList.remove('is-hidden');
+            }else if (targetIndex === slides.length - 1){
+                prevBtn.classList.remove('is-hidden');
+                nextBtn.classList.add('is-hidden');
+            }else{
+                prevBtn.classList.remove('is-hidden');
+                nextBtn.classList.remove('is-hidden');
+            }
+        }
+
+        // click left move slide left
+        prevBtn.addEventListener('click', e => {
+            //find current slide
+            const currentSlide = track.querySelector('.current-slide');
+            const prevSlide = currentSlide.previousElementSibling;
+            const currentDot = dotsNav.querySelector('.current-slide');
+            const prevDot = currentDot.previousElementSibling;
+            const prevIndex = slides.findIndex(slide => slide === prevSlide);
+
+            moveToSlide(track, currentSlide, prevSlide);
+            updateDots(currentDot, prevDot);
+
+            hideShowArrows(slides, prevBtn, nextBtn, prevIndex);            
+        })
+        //click Right move slide right
+        nextBtn.addEventListener('click', e => {
+            //find current slide
+            const currentSlide = track.querySelector('.current-slide');
+            const nextSlide = currentSlide.nextElementSibling;
+            const currentDot = dotsNav.querySelector('.current-slide');
+            const nextDot = currentDot.nextElementSibling;
+            const nextIndex = slides.findIndex(slide => slide === nextSlide);
+
+            moveToSlide(track, currentSlide, nextSlide);
+            updateDots(currentDot, nextDot);
+
+            hideShowArrows(slides, prevBtn, nextBtn, nextIndex);
+        })
+
+        //click nav indicator move to targeted slide
+        dotsNav.addEventListener('click', e =>{
+            const targetDot = e.target.closest('button');
+
+            
+            if(!targetDot) return;
+
+            const currentSlide = track.querySelector('.current-slide');
+            const currentDot = dotsNav.querySelector('.current-slide');
+            const targetIndex = dots.findIndex(dot => dot === targetDot);
+            const targetSlide = slides[targetIndex];
+
+            moveToSlide(track, currentSlide, targetSlide);
+            
+            updateDots(currentDot, targetDot);
+            
+            hideShowArrows(slides, prevBtn, nextBtn, targetIndex);
+        })
+    </script>
+
+
+
+    <!-- part 3 - js -->
+    <!--QUICK VIEW JS-->
+    <script>
+        //QV cho Strawberry Sunset
+        const QVBtn1 = document.querySelector('#openQV-overlay1')
+        const QVOverlay1 = document.querySelector('.QV-overlay')
+        const QVContainer1 = document.querySelector('.QV-overlay-container1')
+        const exitOverlay1 = document.querySelector('.close1')
+
+        //đóng QV
+        function closeQV1(){
+            QVOverlay1.classList.remove('open')
+            QVContainer1.classList.add('closeContainer1')
+        }
+        exitOverlay1.addEventListener('click', closeQV1)
+
+        //mở QV
+        function showQV1(){
+            QVOverlay1.classList.add('open')
+        }
+        function showQVcontainer1(){
+            QVContainer1.classList.add('openContainer1')
+            QVContainer1.classList.remove('closeContainer1')
+        }
+        QVBtn1.addEventListener('click', showQV1)
+        QVBtn1.addEventListener('click', showQVcontainer1)
+    
+        //click bên ngoài QV sẽ đóng QV
+        QVOverlay1.addEventListener('click', closeQV1)
+        QVContainer1.addEventListener('click', function (event) {
+            event.stopPropagation();
+        })
+
+        //QV CHO PEAK AND PUSH
+        const QVBtn2 = document.querySelector('#openQV-overlay2')
+        const QVOverlay2 = document.querySelector('.QV-overlay')
+        const QVContainer2 = document.querySelector('.QV-overlay-container2')
+        const exitOverlay2 = document.querySelector('.close2')
+
+        //đóng QV
+        function closeQV2(){
+            QVOverlay2.classList.remove('open')
+            QVContainer2.classList.add('closeContainer2')
+        }
+        exitOverlay2.addEventListener('click', closeQV2)
+
+        //mở QV
+        function showQV2(){
+            QVOverlay2.classList.add('open')
+        }
+        function showQVcontainer2(){
+            QVContainer2.classList.add('openContainer2')
+            QVContainer2.classList.remove('closeContainer2')
+        }
+        QVBtn2.addEventListener('click', showQV2)
+        QVBtn2.addEventListener('click', showQVcontainer2)
+        //click bên ngoài QV sẽ đóng QV
+        QVOverlay2.addEventListener('click', closeQV2)
+        QVContainer2.addEventListener('click', function (event) {
+            event.stopPropagation();
+        })
+
+        //QV CHO RAVINE
+        const QVBtn3 = document.querySelector('#openQV-overlay3')
+        const QVOverlay3 = document.querySelector('.QV-overlay')
+        const QVContainer3 = document.querySelector('.QV-overlay-container3')
+        const exitOverlay3 = document.querySelector('.close3')
+
+        //đóng QV
+        function closeQV3(){
+            QVOverlay3.classList.remove('open')
+            QVContainer3.classList.add('closeContainer3')
+        }
+        exitOverlay3.addEventListener('click', closeQV3)
+
+        //mở QV
+        function showQV3(){
+            QVOverlay3.classList.add('open')
+        }
+        function showQVcontainer3(){
+            QVContainer3.classList.add('openContainer3')
+            QVContainer3.classList.remove('closeContainer3')
+        }
+        QVBtn3.addEventListener('click', showQV3)
+        QVBtn3.addEventListener('click', showQVcontainer3)
+    
+        //click bên ngoài QV sẽ đóng QV
+        QVOverlay3.addEventListener('click', closeQV3)
+        QVContainer3.addEventListener('click', function (event) {
+            event.stopPropagation();
+        })
+
+        //QV CHO SPACETEAM
+        const QVBtn4 = document.querySelector('#openQV-overlay4')
+        const QVOverlay4 = document.querySelector('.QV-overlay')
+        const QVContainer4 = document.querySelector('.QV-overlay-container4')
+        const exitOverlay4 = document.querySelector('.close4')
+
+        //đóng QV
+        function closeQV4(){
+            QVOverlay4.classList.remove('open')
+            QVContainer4.classList.add('closeContainer4')
+        }
+        exitOverlay4.addEventListener('click', closeQV4)
+
+        //mở QV
+        function showQV4(){
+            QVOverlay4.classList.add('open')
+        }
+        function showQVcontainer4(){
+            QVContainer4.classList.add('openContainer4')
+            QVContainer4.classList.remove('closeContainer4')
+        }
+        QVBtn4.addEventListener('click', showQV4)
+        QVBtn4.addEventListener('click', showQVcontainer4)
+    
+        //click bên ngoài QV sẽ đóng QV
+        QVOverlay4.addEventListener('click', closeQV4)
+        QVContainer4.addEventListener('click', function (event) {
+            event.stopPropagation();
+        })
+        </script>
+
+
+        <script>
+             // Initialize Firebase
+    var firebaseConfig = {
+    apiKey: "your_api_key",
+    authDomain: "your_auth_domain",
+    databaseURL: "your_database_URL",
+    projectId: "your_project_id",
+    storageBucket: "your_storage_bucket",
+    messagingSenderId: "your_messaging_sender_id",
+    appId: "your_app_id"
+    };
+    firebase.initializeApp(firebaseConfig);
+
+  // Get a reference to the database
+    var database = firebase.database();
+
+    // Add an event listener to the form
+    var form = document.getElementById("payment-form");
+    form.addEventListener("submit", function(event) {
+    event.preventDefault();
+    
+    // Extract form data and store in an object
+    var data = {
+        email : getElementID('email').value,
+        country : getElementID('country').value,
+        fname : getElementID('f-name').value,
+        lname : getElementID('l-name').value,
+        address : getElementID('address').value,
+        apartment : getElementID('apartment').value,
+        city : getElementID('city'),
+        postalCode : getElementID('postal').value,
+    }
+    
+    // Send the data to Firebase database by setting the value at a specific location
+    database.ref('formResponses/').push(data);
+    });
+
+        </script>
+</body>
+</html>
