@@ -10,7 +10,7 @@
 <link rel="stylesheet" href="style.css">
 <link rel="stylesheet" href="font/themify-icons-font/themify-icons/themify-icons.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<link rel="stylesheet" href="/responsive.css">
+<link rel="stylesheet" href="responsive.css">
 
 <body>
 <div id="main">
@@ -979,14 +979,14 @@
     
     // Extract form data and store in an object
     var data = {
-        email : getElementID('email').value,
-        country : getElementID('country').value,
-        fname : getElementID('f-name').value,
-        lname : getElementID('l-name').value,
-        address : getElementID('address').value,
-        apartment : getElementID('apartment').value,
-        city : getElementID('city'),
-        postalCode : getElementID('postal').value,
+        email : document.getElementById('email').value,
+        country : document.getElementById('country').value,
+        fname : document.getElementById('f-name').value,
+        lname : document.getElementById('l-name').value,
+        address : document.getElementById('address').value,
+        apartment : document.getElementById('apartment').value,
+        city : document.getElementById('city').value,
+        postalCode : document.getElementById('postal').value
     }
     
     // Send the data to Firebase database by setting the value at a specific location
